@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "scripts": {
     "start:build": "npx tsc -w",
     "start:run": "nodemon dist/index.js",

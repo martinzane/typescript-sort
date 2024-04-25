@@ -1,6 +1,9 @@
-import Sorter from "./sorter";
+import NumbersCollection from "./numbers-collection.js";
+import Sorter from "./sorter.js";
 
-const sorter = new Sorter([10, 3, -5, 0]);
+const numbersCollection = new NumbersCollection([10, 3, -5, 0]);
+
+const sorter = new Sorter(numbersCollection);
 sorter.sort();
 
-console.log(sorter.collection);
+console.log(sorter.collection, "1");
