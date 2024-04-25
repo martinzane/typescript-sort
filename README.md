@@ -1,4 +1,4 @@
-# TypeScript Maps
+# TypeScript Sort
 
 Another practice TypeScript project from the " Typescript: The Complete Developer's Guide" course
 
