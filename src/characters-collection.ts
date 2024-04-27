@@ -1,5 +1,9 @@
-class CharactersCollection {
-  constructor(public data: string) {}
+import Sorter from "./sorter.js";
+
+class CharactersCollection extends Sorter {
+  constructor(public data: string) {
+    super();
+  }
 
   public get length(): number {
     return this.data.length;
